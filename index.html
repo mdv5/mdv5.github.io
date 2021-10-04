@@ -7,20 +7,44 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
 </head>
 <body>
-  <div class="wrapper">
-    <header>Todo App</header>
-    <div class="inputField">
-      <input type="text" placeholder="Add your new todo">
-      <button><i class="fas fa-plus"></i></button>
-    </div>
-    <ul class="todoList">
-      <!-- data are comes from local storage -->
-    </ul>
-    <div class="footer">
-      <span>You have <span class="pendingTasks"></span> pending tasks</span>
-      <button>Clear All</button>
+  <div class ="container"> <!-- Added a container to put the row in -->
+    <div class="row"> <!-- Added a row to put the columns in -->
+      <div class="column"> <!-- Added a column to some text in -->
+        <div class="wrapper">
+          <header>Fei</header>
+        </div>
+      </div>
+      <div class="column"> <!-- Added a column to some text in -->
+        <div class="wrapper">
+          <header>Luc</header>
+        </div>
+      </div>
+      <div class="column"> <!-- Added a column to some text in -->
+        <div class="wrapper">
+          <header>Mike</header>
+          <span> This is my text</span>
+        </div>
+      </div>
     </div>
   </div>
+  <div class="container"> <!-- Added a 2nd container to put a new row in -->
+    <div class="row"> <!-- Added a 2nd row to put the Todo App in -->
+      <div class="wrapper">
+        <header>Todo App</header>
+        <div class="inputField">
+          <input type="text" placeholder="Add your new todo">
+          <button><i class="fas fa-plus"></i></button>
+        </div>
+        <ul class="todoList">
+          <!-- data are comes from local storage -->
+        </ul>
+        <div class="footer">
+          <span>You have <span class="pendingTasks"></span> pending tasks</span>
+          <button>Clear All</button>
+        </div>  
+      </div>
+    </div>
+  </div> 
 
   <script src="script.js"></script>
 
